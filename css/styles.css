@@ -545,6 +545,18 @@ html, body {
     background: #f6faf6;
 }
 
+.contact-icon {
+    font-size: 25px;
+}
+
+.chead {
+    font-size: 15px;
+}
+
+.cp {
+    font-size: 13px;
+}
+
   /* .img-service {
     width: 100%;
   } */
