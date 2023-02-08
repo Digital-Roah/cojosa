@@ -530,6 +530,21 @@ html, body {
     box-shadow:300px 0 0 0 #FFF004 inset;
   }
 
+  .contact-control {
+    font-size: 14px;
+    border-radius: 0px;
+    border-color: #e8ebee;
+}
+
+.contact-control:focus {
+    box-shadow: none;
+    border-color: #e8ebee;
+}
+
+.contact-area {
+    background: #f6faf6;
+}
+
   /* .img-service {
     width: 100%;
   } */
