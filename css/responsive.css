@@ -1,0 +1,13 @@
+@media (max-width:480px) {
+
+      /* Center the loader */
+      #loader {
+        left: 40%;
+        top: 40%;
+      }
+
+    .text-side {
+        padding-top: 0px;
+    }
+    
+}
