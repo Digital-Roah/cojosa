@@ -517,7 +517,7 @@
           <h2 class="text-barlow">Our Services</h2>
           <div class="green-bot"></div>
        </div>
-       <p class="text-center text-grey mt-2 font-400 font-15 wow fadeIn" data-wow-duration="1500">Cojosa Corporations offers a wide range of services</p>
+       <p class="text-center text-grey mt-3 font-400 font-15 wow fadeIn" data-wow-duration="1500">Cojosa Corporations offers a wide range of services</p>
 
 
         <div class="row justify-content-center">
@@ -600,7 +600,7 @@
               </div>
 
               <div class="form-group d-grid mt-3">
-                <a href="#un" class="btn btn-submit text-uppercase py-2 font-500">Check Now</a>
+                <a href="#un" class="btn btn-submit text-uppercase py-2 font-500">Search Booking</a>
               </div>
 
             </form>
@@ -623,7 +623,7 @@
 
       <div class="container">
 
-        <div align="center" class="font-header">
+        <div align="center" class="font-header wow fadeIn" data-wow-duration="1500">
           <h2 class="text-barlow">Contact Us</h2>
           <div class="green-bot"></div>
        </div>
@@ -710,6 +710,68 @@
 
     </div>
 
+    <div class="testimonial-area mt-5 pt-3 wow fadeIn" data-wow-duration="2000">
+
+      <div class="container">
+
+        <div align="center" class="font-header wow fadeIn" data-wow-duration="1500">
+          <h2 class="text-barlow">Testimonials</h2>
+          <div class="green-bot"></div>
+       </div>
+
+       <div class="col-lg-8 mx-auto">
+        <p class="text-center text-grey mt-2 font-400 font-14 wow fadeIn pt-2 pb-3" data-wow-duration="1500">Here are some reviews from our clients</p>
+       </div>
+
+       <div class="testi-content">
+        <div align="center" class="testifier my-3">
+         <div class="col-md-6">
+           <img src="img/naija-mine-2.jpg" alt="zilla-testi-1" class="img-testimonial">
+           <div class="test-quote mt-2">
+             <p>
+               <sup class="me-1"><i class="fa fa-quote-left fa-2x text-green" aria-hidden="true"></i></sup>
+               <span class="text-raleway font-500">I'm so excited trading with ZilliqaFx, their transactions and payouts are super fast!</span>
+             </p>
+           </div>
+           <span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span>
+           <h4 class="text-rubik mt-2">Charles Austin</h4>
+         </div>
+        </div>
+   
+        <div align="center" class="testifier my-3">
+         <div class="col-md-6">
+         <img src="img/paa-testi-one.jpg" alt="zilla-testi-1" class="img-testimonial">
+         <div class="test-quote mt-2">
+           <p>
+             <sup class="me-1"><i class="fa fa-quote-left fa-2x text-green" aria-hidden="true"></i></sup>
+             <span class="text-raleway font-500">I was so shocked to witness huge capital growth with ZilliqaFx. I pay all my bills with ease.</span>
+           </p>
+         </div>
+         <span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span>
+         <h4 class="text-rubik mt-2">Fred Johnson</h4>
+       </div>
+       </div>
+   
+        <div align="center" class="testifier my-3">
+         <div class="col-md-6">
+         <img src="img/paa-mem-1.jpg" alt="zilla-testi-1" class="img-testimonial">
+         <div class="test-quote mt-2">
+           <p>
+             <sup class="me-1"><i class="fa fa-quote-left fa-2x text-green" aria-hidden="true"></i></sup>
+             <span class="text-raleway font-500">ZilliqaFx it's really a priviledge to be part of your company I've experienced wealth beyond my expectations, Thanks a lot!</span>
+           </p>
+         </div>
+         <span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span>
+         <h4 class="text-rubik mt-2">Diana Julius</h4>
+       </div>
+     </div>
+   
+      </div>
+
+      </div>
+
+    </div>
+
   </main>
 
   <footer>
@@ -758,6 +820,19 @@
      nextArrow: '<button class="carousel-arrow next inverted"><i class="la la-arrow-right text-white"></i></button>',
      prevArrow: '<button class="carousel-arrow prev inverted"><i class="la la-arrow-left text-white"></i></button>',
    });
+
+   $('.testi-content').slick({
+  dots: true,
+  dotsClass: 'myslider-dots',
+  infinite: false,
+  speed: 1000,
+  autoplay:true,
+  autoplaySpeed:3000,
+  arrows: true,
+  nextArrow: '<button class="carousel-arrow next inverted"><i class="la la-angle-right la-3x text-green"></i></button>',
+  prevArrow: '<button class="carousel-arrow prev inverted"><i class="la la-angle-left la-3x text-green"></i></button>',
+});
+
       </script>
 
         <!-- Custom JS -->
@@ -787,6 +862,7 @@
         });
       </script>
 
+<!-- To get select dropdown on bs tab change -->
       <script>
 $('button[data-bs-target="#round"]').on('shown.bs.tab', function (e) {
   $('.select-control2').select2({
