@@ -9,5 +9,17 @@
     .text-side {
         padding-top: 0px;
     }
+
+    .contact-bg h2 {
+        font-size: 32px;
+      }
+
+      .contact-bg p {
+        font-size: 15px;
+      }
+
+      .contact-bg {
+        min-height: 280px;
+      }
     
 }
