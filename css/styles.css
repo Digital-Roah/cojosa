@@ -87,6 +87,14 @@ html, body {
     color: rgba(0, 0, 0, 0.55);
 }
 
+.text-light-grey {
+    color: rgba(212, 212, 212, 0.55);
+}
+
+.text-smoke {
+    color: rgb(187, 186, 186);
+}
+
 .text-yellow {
     color: #FFF004;
 }
@@ -718,7 +726,7 @@ html, body {
   }
 
   .footer-area {
-    background: #191a19;
+    background: #1a1a1a;
   }
 
   .foot-head {
@@ -790,4 +798,44 @@ html, body {
     color: white !important;
     background: #0c6e0c !important;
     border: 1px solid #0c6e0c;
+  }
+
+  .foot-social a {
+    color: white;
+    font-size: 18px;
+  }
+
+  .foot-social a:hover {
+    color: #FFF004;
+  }
+
+  .copyright-area {
+    background: #0f0f0f;
+  }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #0c6e0c;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px 10px 15px;
+  }
+  
+  #myBtn:hover {
+    background-color: #0c6e0c;
+  }
+
+  .pop-header {
+    border-bottom: none;
+  }
+
+  .pop-footer {
+    border-top: 0px;
   }
